@@ -13,7 +13,7 @@ public class Controlador implements ActionListener {
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
-
+		
 System.out.println("Boton pulsado");
 		String nombreTMP=ventana.getNombre().getText();
 		int edadTMP=Integer.parseInt(ventana.getEdad().getText());
